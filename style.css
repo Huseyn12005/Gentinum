@@ -3,35 +3,43 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-
+ 
+ 
 body{
     display: flex;
     flex-direction: column;
     align-items: center;
-
-
+    width: 100%;
+ 
+ 
 }
-
+ 
 header{
     background-color: black;
-    width: 100%;
+    width: 100vw;
+    opacity: 0.9;
+    left: 0;
+    top: 0;
+    position: fixed;
+    display: flex;
+    justify-content: center;
 }
-
+ 
 .navbar
 {
-    min-height: 170px;
+    min-height: 100px;
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;  
+    justify-content: space-between;
     max-width: 1140px;
     width: 100%;
-    margin: 0px 164.4px;
-
+    margin: 0 auto;
+ 
+ 
 }
-
-
+ 
+ 
 .Getnum a{
     color: white;
     text-decoration: none;
@@ -42,17 +50,17 @@ header{
     max-height: 46.4px;
     height: 100%;
 }
-
+ 
 .links a{
     color: white;
     text-decoration: none;
 }
-
+ 
 .links{
     display: flex;
     align-items: center;
-    margin-left: 300px;
-
+ 
+ 
     font-family: "AvantGarde Bold", Sans-serif;
     font-size: 16px;
     font-weight: 700;
@@ -60,10 +68,34 @@ header{
     letter-spacing: -0.4px;
     max-height: 36px;
     height: 100%;
-
+    gap: 40px;
+ 
 }
+ 
+ 
 
-.links a{
-    padding: 10px;
-    margin: 15px 0 15px 20px;
+.as{
+    width: 20px;
+}
+ 
+.empty{
+    width: 100vw;
+    background-color: black;
+}
+ 
+.section1{
+    min-width: 1544px;
+    width: 100%;
+    padding-bottom: 120px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+ 
+    background-color: black;
+}
+ 
+.man_img{
+    margin-left: 350px;
+    margin-top: 100px;
+    width: 600px;
 }
